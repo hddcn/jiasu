@@ -53,7 +53,7 @@ startlotserver(){
 		apt-get update
 		apt-get install ethtool
 	fi
-	bash <(wget --no-check-certificate -qO- https://github.com/MoeClub/lotServer/raw/master/Install.sh) install
+	bash <(wget --no-check-certificate -qO- https://github.com/hddcn/jiasu/raw/master/golot.sh) install
 	start_menu
 }
 
