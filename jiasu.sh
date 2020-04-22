@@ -147,8 +147,7 @@ net.ipv4.ip_forward = 1">>/etc/sysctl.conf
 start_menu(){
 clear
 echo && echo -e " 锐速修复版 ${Red_font_prefix}[v${sh_ver}]${Font_color_suffix}
-  
- ${Green_font_prefix}0.${Font_color_suffix} 升级脚本
+
 ————————————内核管理————————————
  ${Green_font_prefix}1.${Font_color_suffix} 安装 Lotserver(锐速)内核
 ————————————加速管理————————————
@@ -167,7 +166,7 @@ echo && echo -e " 锐速修复版 ${Red_font_prefix}[v${sh_ver}]${Font_color_suf
 		
 	fi
 echo
-read -p " 请输入数字 [0-11]:" num
+read -p " 请输入数字 [1-5]:" num
 case "$num" in
 	0)
 	Update_Shell
